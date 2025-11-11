@@ -427,6 +427,6 @@ test('Generated Test', async () => {
       console.error("Error writing to test_result.json:", writeError);
     }
 
-    return result;
+  
   }
 });
