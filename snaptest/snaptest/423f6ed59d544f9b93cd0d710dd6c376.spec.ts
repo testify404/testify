@@ -7,9 +7,9 @@ test('Generated Test', async () => {
   const executedSteps: string[] = [];
   const executionResults: any[] = [];
   const originalUserSteps: string[] = [
-    "Navigate to https://www.saucedemo.com/.",
-    "Enter \"standard_user\" in the username field with id 'user-name'.",
-    "Enter \"secret_sauce\" in the password field with id 'password'.",
+    "Navigate to https://www.saucedemo.com/",
+    "Enter \"standard_user\" in the username field with id 'user-name.",
+    "Enter \"secret_sauce\" in the password field with id 'password.",
     "Click the Login button with id 'login-button'.",
     "Click on the product sort filter dropdown with class 'product_sort_container'.",
     "Select Name (Z to A) from the product sort filter dropdown with class 'product_sort_container' and value 'za'.",
