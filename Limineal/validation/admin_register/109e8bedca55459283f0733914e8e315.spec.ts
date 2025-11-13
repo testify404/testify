@@ -6,10 +6,10 @@ test('Generated Test', async () => {
   const executedSteps: string[] = [];
   const executionResults: any[] = [];
   const originalUserSteps: string[] = [
-    "Navigate to https://www.saucedemo.com/.",
-    "Enter \"standard_user\" in the username field with id user-name.",
-    "Enter \"secret_sauce\" in the password field with id password.",
-    "Click the Login button with id login-button."
+    "Navigate to https://www.saucedemo.com/",
+    "Enter \"standard_user\" in the username field with id user-name",
+    "Enter \"secret_sauce\" in the password field with id password",
+    "Click the Login button with id login-button"
   ];
   let browser: Browser | null = null;
   let page: Page | null = null;
